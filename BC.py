@@ -12,13 +12,13 @@ dateofbirth = dt.datetime(year, month, day)
 
 weekdaynames = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
 weekdaynum = dateofbirth.weekday()
-print('I am pretty sure have forgotwhat day of the week it was ...')
-print('It was a...let me think...', = ' ')
-print('Oh yeah it was a ',weekdaynaweekdaynum])
+print('I am pretty sure you have forgot what day of the week it was ...')
+print('It was a...let me think...', end = ' ')
+print('Oh yeah it was a ',weekdaynames[weekdaynum])
 
 timern = dt.datetime.now()
 thisyear = timern.year
-thisbday = dt.datetime(thisyear, mo day)
+thisbday = dt.datetime(thisyear, month, day)
 
 
 
